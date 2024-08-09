@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 80vh; /* Garante que o body ocupe 100% da altura da viewport */
+    height: 80vh; 
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -17,20 +17,20 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column; /* Mantém os elementos em coluna */
+    flex-direction: column; 
     width: 100%;
     max-width: 500px; 
     padding: 12px;
     background-color: #f7f7f7;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-height: 30vh; /* Garante uma altura mínima para o container */
-    justify-content: center; /* Centraliza o conteúdo verticalmente dentro do container */
+    min-height: 30vh; 
+    justify-content: center; 
 }
 
 .container input, .container button {
     font-size: 16px; 
-    width: 100%; /* Garante que os inputs e botões ocupem 100% da largura do contêiner */
+    width: 100%; 
     margin-bottom: 16px; 
 }
 
@@ -75,7 +75,7 @@ body {
 @media (max-width: 768px) {
 
     body {
-        height: 50vh;
+        height: 80vh;
         margin: 16px;
     }
     .container {
